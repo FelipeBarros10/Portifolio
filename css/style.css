@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: #010540;
+}
+
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar{
+    text-align: center;
+}
+
+.img-sidebar img{
+    width: 50%;
+    border: 8px solid #636cf7;
+    border-radius: 50%;
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.5;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content{
+    position: relative;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.descricao{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2{
+    font-size: 110px;
+    margin-bottom: -10px;
+}
+
+section.descricao h2 > span{
+    color: #010540;
+    font-weight: bold;
+}
+
+section.descricao h3{
+    font-size: 26px;
+    color: #828282;
+}
+
+section.descricao h3 > span{
+    font-size: 26px;
+    display: inline-block;
+    color: #010540;
+    padding-bottom: 27px;
+}
+
+section.descricao p{
+    font-size: 21px;
+    color: #828282;
+    width: 60%;
+    text-align: justify;
+}
+
+
+.icons-social{
+    padding-top: 34px;
+}
+
+.icons-social a{
+   font-size: 32px;
+   color: #010540;
+   margin-right: 10px;
+   display: inline-block;
+   
+}
