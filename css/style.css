@@ -109,5 +109,65 @@ section.descricao p{
    color: #010540;
    margin-right: 10px;
    display: inline-block;
-   
 }
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color:#010540;
+}
+
+
+.graduation .ite{
+    position: relative;
+    left: 18%;
+    margin: 30px 5px 0 0;
+    width: 140px;
+}
+
+.graduation h3{
+    position: relative;
+    left: 32%;
+    bottom:175px;
+    font-size: 28px;
+}
+
+.graduation h4{
+    position: relative;
+    left: 37%;
+    bottom: 172px;
+
+}
+
+.graduation span{
+    position: relative;
+    left: 35%;  
+    bottom: 170px; 
+    font-size: 22px;
+    color: #054630;
+    font-weight: bold;
+}
+
+.course .danki{
+    position: relative;
+    left: 18%;
+    bottom: 45px;
+    margin: 5px  5px 0 0;
+    width: 140px;
+    height: 120px;
+}
+
+.course h3{
+    position: relative;
+    left: 32%;
+    bottom:175px;
+    font-size: 28px;
+}
+
+.course span{
+    position: relative;
+    left: 33%;
+    bottom:175px;
+    font-size: 20px;
+}
+
